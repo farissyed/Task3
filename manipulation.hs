@@ -14,3 +14,7 @@ bous x y = if (even y) then x else (reverse x)
 
 listBous :: [String] -> [String]
 listBous x = [ bous a $ length a | a <- x ]
+
+--Trial
+
+avg x y = (x + y)/2
