@@ -1,12 +1,8 @@
---Set 8
-import Data.Char
+--Task 3
+--manipulation.hs
 
 main = do
   putStrLn("Compiled")
-
-fstTriple (x,_,_) = x
-sndTriple (_,x,_) = x
-thrdTriple (_,_,x) = x
 
 --1
 
